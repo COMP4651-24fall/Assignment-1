@@ -29,7 +29,7 @@
     | `t3.medium` |                 |                    |
     | `c3.large`  |                 |                    |
 
-    > Region: `N. Virginia`. Use `Ubuntu Server 20.04 LTS (HVM)` as AMI.
+    > Region: `N. Virginia`. Use `Ubuntu Server 22.04 LTS (HVM) SSD Volume Type` as AMI.
 
 ## Question 2: Measure the EC2 Network performance
 
@@ -44,7 +44,7 @@
     | `t3.medium` - `c3.large`  |                |          |
     | `t3.medium` - `t2.small`  |                |          |
 
-    > Region: `N. Virginia`. Use `Ubuntu Server 20.04 LTS (HVM)` as AMI. You should launch **6** instances in total.
+    > Region: `N. Virginia`. Use `Ubuntu Server 22.04 LTS (HVM) SSD Volume Type` as AMI. You should launch **6** instances in total.
 
 2. (1 mark) What about the network performance for instances deployed in different regions? In order to answer this question, you need to complete the following table.
 
@@ -54,7 +54,7 @@
     | N. Virginia - N. Virginia |                |          |
     | Oregon - Oregon           |                |          |
 
-    > Region: `N. Virginia`/`Oregon`. Use `Ubuntu Server 20.04 LTS (HVM)` as AMI. All instances are `t3.medium`.
+    > Region: `N. Virginia`/`Oregon`. Use `Ubuntu Server 22.04 LTS (HVM) SSD Volume Type` as AMI. All instances are `t3.medium`.
     
 3. (1 mark) Is network performance consistent over time? You can do measurements at different times of a day and compare the results. Please give at least 2 possible reasons why network performance is inconsistent.
 
